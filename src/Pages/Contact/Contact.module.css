@@ -1,0 +1,19 @@
+.formBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.serviceBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.serviceBox p {
+  border: 0.1px solid #17151d;
+  padding: 14px 45px;
+  cursor: pointer;
+}

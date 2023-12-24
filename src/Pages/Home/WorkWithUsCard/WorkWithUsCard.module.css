@@ -1,0 +1,115 @@
+.workWithUsSection {
+  padding-top: 0px;
+}
+.workWithUsContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #12bcff;
+  padding: 50px;
+  border-radius: 16px;
+  color: #fff;
+}
+
+.getStarted {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.ctaBtnBox button {
+  border: 1px solid #fff;
+  outline: none;
+  width: 104px;
+  height: 57px;
+  flex-shrink: 0;
+  border-radius: 35px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 34px;
+}
+
+.getStarted p {
+  font-size: 20px;
+}
+
+.ctaBtnBox i {
+  font-size: 30px;
+  color: #fff;
+  display: inline-flex;
+}
+
+@media (max-width: 870px) {
+  .title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 764px) {
+  .getStarted {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 699px) {
+  .workWithUsContent {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+}
+
+@media (max-width: 440px) {
+  .title {
+    font-size: 26px;
+  }
+
+  .ctaBtnBox button {
+    width: 104px;
+    height: 43px;
+  }
+}
+
+@media (max-width: 395px) {
+  .workWithUsContent {
+    padding: 30px;
+  }
+  .title {
+    font-size: 24px;
+  }
+  .getStarted p {
+    font-size: 18px;
+  }
+
+  .ctaBtnBox button {
+    width: 70px;
+    height: 40px;
+  }
+
+  .ctaBtnBox i {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 307px) {
+  .workWithUsContent {
+    padding: 30px;
+  }
+  .title {
+    font-size: 20px;
+  }
+  .getStarted p {
+    font-size: 16px;
+  }
+
+  .ctaBtnBox button {
+    width: 60px;
+    height: 35px;
+  }
+
+  .ctaBtnBox i {
+    font-size: 18px;
+  }
+}

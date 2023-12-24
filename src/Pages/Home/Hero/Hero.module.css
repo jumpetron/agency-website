@@ -1,0 +1,235 @@
+svg {
+  width: 100%;
+  height: 100%;
+}
+
+.heroSection {
+  width: 100%;
+  background: url("../../../assets/images/banner/hero-banner.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top center;
+  padding-bottom: 0;
+}
+
+.heroContainer {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 60%;
+}
+
+.heroContent h1 {
+  margin-bottom: 20px;
+  font-size: 64px;
+}
+
+.heroContent p {
+  font-size: 20px;
+}
+
+.heroContent h1 span.topSparkle {
+  position: relative;
+}
+
+.heroContent h1 span.underline {
+  color: #eb0028;
+  position: relative;
+}
+
+.heroContent h1 span.topSparkle::after {
+  content: "";
+  position: absolute;
+  background: url("../../../assets/images/icon/sparkle-half-right.svg");
+  background-size: 100% 100%;
+  top: -60px;
+  right: -200px;
+  width: 100%;
+  height: 100%;
+}
+
+.heroContent h1 span.underline::before {
+  content: "";
+  position: absolute;
+  background: url("../../../assets/images/icon/Underline-red.svg");
+  background-size: 100% 100%;
+  left: 0;
+  bottom: -40px;
+  width: 100%;
+  height: 100%;
+}
+
+.scrollSvg {
+  text-align: center;
+  margin-top: 100px;
+}
+
+@media (max-width: 1115px) {
+  .heroContent h1 {
+    font-size: 58px;
+  }
+}
+
+@media (max-width: 1010px) {
+  .heroContent h1 {
+    font-size: 48px;
+  }
+
+  .heroContent p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1010px) {
+  .heroContent h1 {
+    font-size: 45px;
+  }
+
+  .heroContent p {
+    font-size: 18px;
+  }
+
+  .heroContent h1 span.topSparkle::after {
+    right: -120px;
+  }
+}
+
+@media (max-width: 800px) {
+  .heroContent h1 {
+    font-size: 40px;
+  }
+
+  .heroContent p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 710px) {
+  .heroContent {
+    width: 70%;
+  }
+  .heroContent h1 {
+    font-size: 38px;
+  }
+
+  .heroContent p {
+    font-size: 16px;
+  }
+
+  .heroContent h1 span.topSparkle::after {
+    top: -80px;
+    right: -50px;
+  }
+
+  .scrollSvg {
+    margin-top: 50px;
+  }
+
+  .heroContainer {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 590px) {
+  .heroContent {
+    width: 80%;
+  }
+}
+
+@media (max-width: 521px) {
+  .heroContent {
+    width: 90%;
+  }
+
+  .heroContent h1 span.topSparkle::after {
+    top: -60px;
+    width: 80%;
+    height: 80%;
+  }
+}
+
+@media (max-width: 469px) {
+  .heroContent {
+    width: 100%;
+  }
+
+  .heroContent h1 {
+    font-size: 34px;
+  }
+
+  .heroContent p {
+    font-size: 15px;
+  }
+
+  .heroContent h1 span.topSparkle::after {
+    top: -60px;
+    right: 0;
+    width: 80%;
+    height: 80%;
+  }
+
+  .scrollSvg {
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 394px) {
+  .heroContent h1 {
+    font-size: 28px;
+  }
+
+  .heroContent p {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .heroContent h1 span.topSparkle::after {
+    top: -60px;
+    right: 0;
+    width: 80%;
+    height: 80%;
+  }
+
+  .scrollSvg {
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  .heroContent h1 span.underline::before {
+    bottom: -30px;
+  }
+}
+
+@media (max-width: 332px) {
+  .heroContent h1 {
+    font-size: 24px;
+  }
+
+  .heroContent p {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .heroContent h1 span.topSparkle::after {
+    top: -100px;
+  }
+
+  .heroContent h1 span.underline::before {
+    bottom: -20px;
+  }
+}

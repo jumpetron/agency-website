@@ -1,0 +1,38 @@
+.testimonialSection {
+  padding-top: 0;
+}
+
+.titleSection {
+  margin-bottom: 20px;
+}
+
+.titleSection p {
+  text-transform: uppercase;
+  margin-top: 8px;
+}
+
+.personDetails {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.personDetails img {
+  width: 100%;
+}
+
+.personImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.personImg img {
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.review p {
+  font-size: 13px;
+}

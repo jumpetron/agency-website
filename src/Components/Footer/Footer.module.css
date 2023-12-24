@@ -1,0 +1,90 @@
+.footerContent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.footerSection {
+  padding-top: 50px;
+  background: #fff;
+}
+svg {
+  width: 100%;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.social svg {
+  width: 30px;
+  border: 1px solid black;
+  padding: 4px;
+  border-radius: 50%;
+}
+
+.contactWay svg {
+  width: 22px;
+  padding: 4px;
+}
+
+.contactWay {
+  margin-top: 10px;
+}
+
+.mail {
+  margin-bottom: 5px;
+}
+
+.mail p,
+.phone p {
+  font-size: 12px;
+}
+
+.phone,
+.mail {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.logoContent p {
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.logoContent h3 {
+  font-size: 22px;
+}
+
+.serviceMenu h3,
+.companyMenu h3,
+.addressSection h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.menuItem li {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.addressSection p {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 848px) {
+  .footerContent {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 438px) {
+  .footerContent {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

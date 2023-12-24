@@ -1,0 +1,120 @@
+.ourWorksSection {
+  padding-top: 0;
+}
+
+.ourWorksSection .title {
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.worksBox {
+  width: 372px;
+}
+
+.companyLogo {
+  width: 100%;
+  height: 262px;
+}
+
+.companyLogo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.worksContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid black;
+}
+
+.worksBox:nth-child(1) {
+  border: 2px solid #ffd035;
+}
+
+.worksBox:nth-child(2) {
+  border: 2px solid #eb0028;
+}
+
+.worksBox:nth-child(3) {
+  border: 2px solid #12bcff;
+}
+
+.worksBoxContent {
+  padding: 10px;
+  color: #fff;
+}
+
+.itemNum-01 {
+  background: #ffd035;
+}
+
+.itemNum-02 {
+  background: #eb0028;
+}
+
+.itemNum-03 {
+  background: #12bcff;
+}
+
+.task small {
+  margin-right: 8px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  font-size: 10px;
+  padding: 2px 8px;
+  cursor: pointer;
+}
+.task {
+  margin-bottom: 8px;
+}
+
+.worksBoxContent h4 {
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
+.worksBoxContent p {
+  font-size: 15px;
+  margin-bottom: 18px;
+}
+
+.seeAll {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.icon {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+@media (max-width: 1172px) {
+  .companyLogo {
+    width: 100%;
+  }
+}
+
+@media (max-width: 805px) {
+  .ourWorksSection .title {
+    font-size: 30px;
+  }
+  .worksBox {
+    width: 48%;
+  }
+  .worksContainer {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 557px) {
+  .ourWorksSection .title {
+    font-size: 26px;
+  }
+  .worksBox {
+    width: 100%;
+  }
+}
